@@ -35,7 +35,7 @@ function App() {
       title: "React3",
       description: "Learn React js for get place",
       date: "15/6/24",
-      tasks:['task1',"task2","task3"]
+      tasks:['working fine',"task2","task3"]
     },
   ]);
    
