@@ -88,8 +88,9 @@ function App() {
       {...prev,tasks:prev.tasks.filter((ele,i)=>i!=ind)}))
       setProjects(prev=>{
         let update = [...prev]
-        let ind = update.findIndex(ele=>ele.id==id)
-        update[ind].tasks.splice(ind,1)
+        let i = update.findIndex(ele=>ele.id==id)
+        console.log("project ind",ind)
+        update[i].tasks.splice(ind,1)
         return update
       })
     
